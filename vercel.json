@@ -1,7 +1,5 @@
 {
-  "buildCommand": "pnpm build",
-  "installCommand": "pnpm install",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "buildCommand": "pnpm --filter client build",
+  "outputDirectory": "client/dist",
+  "installCommand": "pnpm install"
 }
