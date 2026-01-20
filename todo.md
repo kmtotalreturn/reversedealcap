@@ -1,0 +1,21 @@
+# Project TODO
+
+- [x] Database schema for lender and company submissions
+- [x] Brutalist design system with typography and spacing
+- [x] Hero section with headline and dual CTAs
+- [x] Two-column "Who this is for" section
+- [x] Three-step "How it works" section
+- [x] "What we don't do" trust-building section
+- [x] "Why lenders work with us" section
+- [x] "Why companies talk to us" section
+- [x] Lender intake form with database integration
+- [x] Company intake form with database integration
+- [x] Footer with legal disclaimers
+- [x] Form submission handlers and validation
+- [x] Unit tests for form submissions
+- [x] Add "$1M to $9M" revenue range option to company form dropdown
+- [x] Soften color palette and typography
+- [x] Replace thick borders with subtle shadows and spacing
+- [x] Update CSS design tokens for refined aesthetic
+- [x] Refine homepage layout for softer visual hierarchy
+- [x] Update messaging and content copy across all sections
