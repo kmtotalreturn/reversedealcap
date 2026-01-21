@@ -10,6 +10,18 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
+  root: "client",
+  plugins: [react()],
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "client/src")
+    }
+  }
+});  
   plugins,
   resolve: {
     alias: {
